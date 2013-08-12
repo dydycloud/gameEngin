@@ -1,4 +1,5 @@
 // Initialisation du requestAnimationFrame et de cancelAnimationFrame qui seront utilisé dans le code 
+// Setup requestAnimationFrame and cancelAnimationFrame for use in the game code
 (function() {
     var lastTime = 0;
     var vendors = ['ms', 'moz', 'webkit', 'o'];
@@ -25,7 +26,7 @@
 }());
 
 $(window).load(function() {
-	game.init();
+    game.init();
 });
 
 var game = {
